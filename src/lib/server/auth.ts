@@ -2,7 +2,7 @@ import type { UserType } from "$lib/UserType";
 import type { Cookies } from "@sveltejs/kit";
 import Pocketbase from "pocketbase";
 
-const DB_URL = "https://db.hn.eppeque.dev";
+const DB_URL = "https://server.eppeque.dev";
 
 export async function verifyToken(
   token: string | undefined
